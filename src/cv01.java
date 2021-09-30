@@ -185,7 +185,6 @@ public class cv01 {
         {
            res=hodiny-12;
         }
-        System.out.println(res);
         Bressenham(sx,sy,(int)(sx+r5*Math.cos(Math.toRadians(30*res+(minutes/2)-90))),(int)(sy+r5*Math.sin(Math.toRadians(30*res+(minutes/2)-90))));
 
 
